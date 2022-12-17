@@ -1,0 +1,178 @@
+
+
+/**************************/
+/* MOBILE */
+/**************************/
+
+
+@media screen and (max-width:600px){
+    .job__container{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+
+    .header__cta-title {
+        padding: 0 var(--space-medium);
+        font-size: var(--font-size-medium);
+    }
+
+    .header__cta-copy {
+        font-size: var(--font-size-small-xs);
+    }
+
+    /* .services{
+        width: 90%;
+    } */
+
+    .service__container{
+        justify-content: center;
+    }
+
+    .service__card{
+        width: 20rem;
+    }
+
+    .service__card-img{
+        height: 220px;
+    }
+
+    .services__title, .job__title, .contact__title {
+        padding: 0 var(--space-medium);
+    }
+
+    .contact__information {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 130px;
+    }
+
+    .form__inputs {
+        flex-direction: column;
+    }
+
+    .form__input-container {
+        width: 100%;
+    }
+
+ 
+}
+
+@media screen and (max-width:380px) {
+    .service__card{
+        width: 17rem;
+    }
+   
+}
+
+
+@media screen and (min-width: 600px) {
+    .about__card {
+        width: 19rem;
+    }
+
+    .service__card {
+        margin: 0 auto;
+        width: 15rem;
+    }
+
+    .service__card-img {
+        height: 200px;
+    }
+
+    .job__container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: var(--space-small-xs);
+    }
+
+    .job{
+        width: 280px;
+        height: 280px;
+    }
+}
+
+/**************************/
+/* DESKTOP */
+/**************************/
+
+@media screen and (min-width:1024px) {
+    .header__wave {
+        display: block;
+    }
+
+    .navbar__links {
+        display: block;
+    }
+
+    .navbar__menu {
+        display: block;
+    }
+
+    .navbar__close-icon {
+        display: none;
+    }
+
+    .navbar__menu{
+        display: none;
+    }
+
+    .job{
+        width: 350px;
+        height: 350px;
+    }
+
+    .job__img{
+        height: 350px;
+    }
+
+    .contact__container{
+        justify-content: space-evenly;
+    }
+
+    .contact__container-information{
+        width: 40%;
+    }
+
+    .contact__information{
+        width: 15rem;
+    }
+
+    .form{
+        width: 40%;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .footer__container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer__links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+    }
+
+    .footer__link{
+        margin: 0 var(--space-medium);
+    }
+
+    .footer__cta-link{
+        margin: 0;
+        margin-left: var( --space-more-large-xl);
+    }
+}

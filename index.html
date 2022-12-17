@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./src/index.js" async type="module"></script>
+    <style>
+        @import url(./styles/styles.css);
+        @import url(./styles/media-query.css);
+    </style>
+    <title>Rotulos Arnao</title>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="./assets/logo.png" alt="Rotulos Arnao" class="navbar__logo-image">
+            </div>
+
+            <div class="navbar__menu">
+                <img src="./assets/menu.svg" class="navbar__menu-icon">
+            </div>
+
+            <div class="navbar__links">
+                <img src="./assets/close.svg" alt="icon" class="navbar__close-icon">
+                <a href="#home" class="navbar__link">Home</a>
+                <a href="#services" class="navbar__link">Servicios</a>
+                <a href="#jobs" class="navbar__link">Nuestros trabajos</a>
+                <a href="#contact" class="navbar__link">Contacto</a>
+            </div>
+        </nav>
+
+        <section class="header__cta">
+            <h1 class="header__cta-title">
+                Especialistas en rotulación
+            </h1>
+            <p class="header__cta-copy">
+                Te ayudamos a potenciar la imagen corporativa de tú negocio
+            </p>
+            <a href="#contact" class="header__cta-link">
+                Llamanos
+            </a>
+        </section>
+
+        <div class="header__wave">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: hsl(0, 0%, 98%)"></path>
+            </svg>
+        </div>
+    </header>
+
+    <section class="about">
+        <h1 class="about__title services__title">¿Porque nosotros y no otra empresa?</h1>
+        <p class="about__copy">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum commodi similique nam, non aspernatur
+            tempora est quo laudantium optio voluptatibus! Blanditiis quia incidunt amet inventore!
+        </p>
+
+        <div class="about__cards">
+            <div class="about__card">
+                <div class="about__card-container-icon">
+                    <img src="./assets/analyze.svg" alt="Icon" class="about__card-icon">
+                </div>
+                <h3 class="about__card-title">Lorem ipsum dolor sit amet</h3>
+                <p class="about__card-copy about__copy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+                    placeat natus commodi eius ad consequuntur dignissimos ex suscipit mollitia est.</p>
+            </div>
+            <div class="about__card">
+                <div class="about__card-container-icon">
+                    <img src="./assets/settings.svg" alt="Icon" class="about__card-icon">
+                </div>
+                <h3 class="about__card-title">Lorem ipsum dolor sit amet</h3>
+                <p class="about__card-copy about__copy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+                    placeat natus commodi eius ad consequuntur dignissimos ex suscipit mollitia est.</p>
+            </div>
+            <div class="about__card">
+                <div class="about__card-container-icon">
+                    <img src="./assets/color-filter.svg" alt="Icon" class="about__card-icon">
+                </div>
+                <h3 class="about__card-title">Lorem ipsum dolor sit amet</h3>
+                <p class="about__card-copy about__copy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+                    placeat natus commodi eius ad consequuntur dignissimos ex suscipit mollitia est.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="services" id="services">
+
+        <h1 class="services__title">Nuestros servicios</h1>
+
+        <div class="service__container">
+            <div class="service__card">
+                <img src="./assets/vinilos.png" alt="Vinilos" class="service__card-img">
+                <div class="service__card-text">
+                    <h3 class="service__card-title">Vinilos en impresión digital</h3>
+                    <p class="service__card-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo
+                        earum
+                        ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis.</p>
+                </div>
+            </div>
+            <div class="service__card">
+                <img src="./assets/letras.png" alt="Vinilos" class="service__card-img">
+                <div class="service__card-text">
+                    <h3 class="service__card-title">Letras córporeas</h3>
+                    <p class="service__card-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo
+                        earum
+                        ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis.</p>
+                </div>
+            </div>
+            <div class="service__card">
+                <img src="./assets/neon.png" alt="Vinilos" class="service__card-img">
+                <div class="service__card-text">
+                    <h3 class="service__card-title">Iluminación de neón</h3>
+                    <p class="service__card-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo
+                        earum
+                        ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis.</p>
+                </div>
+            </div>
+            <div class="service__card">
+                <img src="./assets/rotulacion.png" alt="Vinilos" class="service__card-img">
+                <div class="service__card-text">
+                    <h3 class="service__card-title">Rotulación de vehículos</h3>
+                    <p class="service__card-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo
+                        earum
+                        ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="jobs" id="jobs">
+
+        <h1 class="job__title">Nuestros trabajos</h1>
+
+        <div class="job__container">
+            <div class="job">
+                <img src="./assets/letras.png" alt="Letras córporeas" class="job__img">
+            </div>
+            <div class="job">
+                <img src="./assets/neon.png" alt="Neón" class="job__img">
+            </div>
+            <div class="job">
+                <img src="./assets/rotulacion.png" alt="Rotulación" class="job__img">
+            </div>
+            <div class="job">
+                <img src="./assets/vinilos.png" alt="Vinilos" class="job__img">
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h1 class="contact__title">Contacto</h1>
+
+        <div class="contact__container">
+            <div class="contact__container-information">
+
+                <div class="contact__information">
+                    <h3 class="contact__information-title">
+                        <img src="./assets/phone.svg" alt="Phone" class="contact__information-icon">
+                        Teléfono
+                    </h3>
+                    <p class="contact__information-copy">969 240 686</p>
+                </div>
+
+                <div class="contact__information">
+                    <h3 class="contact__information-title">
+                        <img src="./assets/clock-hour.svg" alt="Phone" class="contact__information-icon">
+                        Horario
+                    </h3>
+                    <p class="contact__information-copy">Lunes a viernes</p>
+                    <p class="contact__information-copy">09:00h a 14:00h</p>
+                    <p class="contact__information-copy">16:00h a 19:00h</p>
+                </div>
+
+                <div class="contact__information">
+                    <h3 class="contact__information-title">
+                        <img src="./assets/mail.svg" alt="Phone" class="contact__information-icon">
+                        Emails
+                    </h3>
+                    <p class="contact__information-copy">info@rotulosarnao.es</p>
+                    <p class="contact__information-copy">pedidos@rotulosarnao.es</p>
+                </div>
+
+                <div class="contact__information">
+                    <h3 class="contact__information-title">
+                        <img src="./assets/map-pin.svg" alt="Phone" class="contact__information-icon">
+                        Dirección
+                    </h3>
+                    <p class="contact__information-copy">Puerta Valencia, 5 - 16001 (Cuenca) </p>
+
+                </div>
+            </div>
+
+
+            <form action="#" class="form" method="get">
+                <p class="form__copy">Si necesitas ayuda escribenos y te responderemos lo antes posible.</p>
+                <div class="form__inputs">
+                    <div class="form__input-container">
+                        <label for="name" id="name">Nombre *</label>
+                        <input type="text" name="name" id="name" class="form__input form__input--name" required
+                            placeholder="Nombre">
+                    </div>
+                    <div class="form__input-container">
+                        <label for="phone" id="phone">Teléfono *</label>
+                        <input type="tel" name="phone" id="phone" required class="form__input form__input--phone"
+                            placeholder="Teléfono">
+                    </div>
+                </div>
+                <textarea name="message" id="" class="form__message" placeholder="Escribe tú consulta"
+                    required></textarea>
+                <button type="submit" class="form__cta-link header__cta-link">Enviar consulta</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div class="footer__logos">
+                <div class="footer__logo">
+                    <img src="./assets/logo.png" alt="Rotulos Arnao" class="footer__logo-image">
+                </div>
+
+                <div class="footer__social-media">
+                    <div class="footer__social-media-icon">
+                        <a href="https://es-es.facebook.com/people/R%C3%B3tulos-Arnao/100069254559997/"
+                            class="footer__social-media-link" target="_blank">
+                            <img src="./assets/facebook.png" class="footer__icon">
+                        </a>
+                    </div>
+                    <div class="footer__social-media-icon">
+                        <a href="https://www.linkedin.com/company/rotulos-arnao-s-l/" class="footer__social-media-link"
+                            target="_blank">
+                            <img src="./assets/linkedin.png" class="footer__icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="footer__links">
+                <a href="#home" class="footer__link">Home</a>
+                <a href="#services" class="footer__link">Servicios</a>
+                <a href="#jobs" class="footer__link">Nuestros trabajos</a>
+                <a href="#contact" class="footer__link">Contacto</a>
+                <a href="#contact" class="footer__cta-link header__cta-link">Contactanos</a>
+            </ul>
+        </div>
+
+        <p class="footer__copy">&#169 Rotulos Arnao S.L. Todos los derechos reservados</p>
+
+
+
+    </footer>
+
+</body>
+
+</html>
