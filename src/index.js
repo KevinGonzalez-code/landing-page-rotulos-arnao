@@ -1,4 +1,9 @@
-import { REGEX_NAME, REGEX_PHONE, WIDTH_DESKTOP } from "./constants.js"
+// import services from './data/services.json' assert {type: "json"};
+import { REGEX_NAME, REGEX_PHONE, WIDTH_DESKTOP,BASE_URL } from "./constants.js"
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('ready')
+})
 
 const navbarMenu = document.querySelector('.navbar__menu')
 const navbarLikns = document.querySelector('.navbar__links')
@@ -29,13 +34,16 @@ const submitForm = (event) => {
     event.preventDefault()
 
     const isValidName = checkInputValid(inputName.value, REGEX_NAME)
-    const isValidPhone = checkInputValid(inputName.value, REGEX_PHONE)
+    const isValidPhone = checkInputValid(inputPhone.value, REGEX_PHONE)
 
     if (isValidName && isValidPhone) {
         form.submit()
     }
-
 }
+
+
+
+
 
 navbarMenu.addEventListener('click', openMenuMobile)
 navbarClose.addEventListener('click', closeMenuMobile)
