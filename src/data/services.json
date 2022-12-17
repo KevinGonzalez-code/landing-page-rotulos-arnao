@@ -1,0 +1,31 @@
+{
+    "class": {
+        "card": "service__card",
+        "img": "service__card-img",
+        "containerText": "service__card-text",
+        "title": "service__card-title",
+        "description": "service__card-copy"
+    },
+    "data": [
+        {
+            "image": "vinilos.png",
+            "title": "Vinilos en impresión digital",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        },
+        {
+            "image": "letras.png",
+            "title": "Letras córporeas",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        },
+        {
+            "image": "neon.png",
+            "title": "Iluminación de neón",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        },
+        {
+            "image": "rotulacion.png",
+            "title": "Rotulación de vehículos",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        }
+    ]
+}

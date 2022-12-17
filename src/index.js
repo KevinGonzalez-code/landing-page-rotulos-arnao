@@ -1,4 +1,6 @@
+// import services from './data/services.json' assert {type: "json"};
 import { REGEX_NAME, REGEX_PHONE, WIDTH_DESKTOP } from "./constants.js"
+import { printCardServices } from "./helpers/helpers.js"
 
 const navbarMenu = document.querySelector('.navbar__menu')
 const navbarLikns = document.querySelector('.navbar__links')
@@ -29,16 +31,21 @@ const submitForm = (event) => {
     event.preventDefault()
 
     const isValidName = checkInputValid(inputName.value, REGEX_NAME)
-    const isValidPhone = checkInputValid(inputName.value, REGEX_PHONE)
+    const isValidPhone = checkInputValid(inputPhone.value, REGEX_PHONE)
 
     if (isValidName && isValidPhone) {
         form.submit()
     }
-
 }
+
+
+
+
 
 navbarMenu.addEventListener('click', openMenuMobile)
 navbarClose.addEventListener('click', closeMenuMobile)
 document.addEventListener('scroll', closeMenuMobile)
 form.addEventListener("submit", submitForm)
 resizeObserver.observe(document.body)
+
+printCardServices()
