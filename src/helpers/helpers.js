@@ -1,15 +1,16 @@
 import { BASE_URL } from '../constants.js'
 import services from '../data/services.json' assert {type: "json"};
+import jobs from '../data/jobs.json' assert {type: "json"};
 
 export const printCardServices = () => {
 
     const servicesContainer = document.querySelector('.service__container')
     const {
-            card,
-            containerText,
-            description: descriptionClass,
-            img,
-            title: titleClass
+        card,
+        containerText,
+        description: descriptionClass,
+        img,
+        title: titleClass
     } = services.class
 
     services.data.forEach(service => {
@@ -45,5 +46,28 @@ export const printCardServices = () => {
 
     });
 
+}
+
+export const printJobsGallery = () => {
+
+    const jobsContainer = document.querySelector('.job__container')
+
+
+    jobs.data.forEach(job => {
+
+        const { div, img } = jobs.class
+
+        const jobContainer = document.createElement('div')
+        const image = document.createElement('img')
+
+        image.setAttribute('class', img)
+        jobContainer.setAttribute('class', div)
+
+        image.setAttribute('src', `${BASE_URL.concat(job.image)}`)
+        image.setAttribute('alt', `${BASE_URL.concat(job.alt)}`)
+
+        jobContainer.appendChild(image)
+        jobsContainer.appendChild(jobContainer)
+    })
 }
 

@@ -1,6 +1,13 @@
-// import services from './data/services.json' assert {type: "json"};
-import { REGEX_NAME, REGEX_PHONE, WIDTH_DESKTOP } from "./constants.js"
-import { printCardServices } from "./helpers/helpers.js"
+import {
+    REGEX_NAME,
+    REGEX_PHONE,
+    WIDTH_DESKTOP
+} from "./constants.js"
+
+import {
+    printCardServices,
+    printJobsGallery
+} from "./helpers/helpers.js"
 
 const navbarMenu = document.querySelector('.navbar__menu')
 const navbarLikns = document.querySelector('.navbar__links')
@@ -38,10 +45,6 @@ const submitForm = (event) => {
     }
 }
 
-
-
-
-
 navbarMenu.addEventListener('click', openMenuMobile)
 navbarClose.addEventListener('click', closeMenuMobile)
 document.addEventListener('scroll', closeMenuMobile)
@@ -49,3 +52,4 @@ form.addEventListener("submit", submitForm)
 resizeObserver.observe(document.body)
 
 printCardServices()
+printJobsGallery()

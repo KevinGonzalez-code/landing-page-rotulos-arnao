@@ -1,12 +1,40 @@
 {
     "class": {
-        "div": "job__img",
-        "img": "service__card-img"
+        "div": "job",
+        "img": "job__img"
     },
     "data": [
         {
             "image": "vinilos.png",
-            "alt": ""
+            "alt": "Vinilos personalizados"
+        },
+        {
+            "image": "neon.png",
+            "alt": "Rótulos de Neón"
+        },
+        {
+            "image": "placas.jpg",
+            "alt": "Placas personalizadas"
+        },
+        {
+            "image": "rotulacion.png",
+            "alt": "Rotulación de vehículos"
+        },
+        {
+            "image": "sellos.jpg",
+            "alt": "Sellos personalizados"
+        },
+        {
+            "image": "vallas-publicitarias.jpg",
+            "alt": "Vallas publicitarias"
+        },
+        {
+            "image": "senales-trafico.jpg",
+            "alt": "Vallas publicitarias"
+        },
+        {
+            "image": "señalizacion.jpg",
+            "alt": "Vallas publicitarias"
         }
     ]
 }
