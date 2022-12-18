@@ -9,7 +9,7 @@
     "data": [
         {
             "image": "vinilos.png",
-            "title": "Vinilos en impresión digital",
+            "title": "Vinilos adhesivos",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
         },
         {
@@ -19,12 +19,42 @@
         },
         {
             "image": "neon.png",
-            "title": "Iluminación de neón",
+            "title": "Rótulos luminosos",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
         },
         {
             "image": "rotulacion.png",
             "title": "Rotulación de vehículos",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        },
+        {
+            "image": "vallas-publicitarias.jpg",
+            "title": "Vallas publicitarias",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        },
+        {
+            "image": "senales-trafico.jpg",
+            "title": "Señales de tráfico",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        },
+        {
+            "image": "señalizacion.jpg",
+            "title": "Señalización",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        },
+        {
+            "image": "placas.jpg",
+            "title": "Placas personalizadas",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        },
+        {
+            "image": "sellos.jpg",
+            "title": "Sellos personalizados",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+        },
+        {
+            "image": "camisetas.jpg",
+            "title": "Ropa personalizada",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
         }
     ]

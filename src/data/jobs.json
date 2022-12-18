@@ -1,0 +1,12 @@
+{
+    "class": {
+        "div": "job__img",
+        "img": "service__card-img"
+    },
+    "data": [
+        {
+            "image": "vinilos.png",
+            "alt": ""
+        }
+    ]
+}

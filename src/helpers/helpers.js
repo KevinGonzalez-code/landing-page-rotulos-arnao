@@ -4,7 +4,13 @@ import services from '../data/services.json' assert {type: "json"};
 export const printCardServices = () => {
 
     const servicesContainer = document.querySelector('.service__container')
-    const { card, containerText, description: descriptionClass, img, title: titleClass } = services.class
+    const {
+            card,
+            containerText,
+            description: descriptionClass,
+            img,
+            title: titleClass
+    } = services.class
 
     services.data.forEach(service => {
 
@@ -17,7 +23,6 @@ export const printCardServices = () => {
 
         const { image, title, description } = service
 
-
         serviceCard.setAttribute('class', card)
         imgCard.setAttribute('class', img)
         cardTitle.setAttribute('class', titleClass)
@@ -27,9 +32,8 @@ export const printCardServices = () => {
         imgCard.setAttribute('src', `${BASE_URL.concat(image)}`)
         imgCard.setAttribute('alt', title)
 
-        cardTitle.textContent = service.title
-        cardDescription.textContent = service.description
-
+        cardTitle.textContent = title
+        cardDescription.textContent = description
 
         cardTextContainer.appendChild(cardTitle)
         cardTextContainer.appendChild(cardDescription)
