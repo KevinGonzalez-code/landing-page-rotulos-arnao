@@ -522,6 +522,10 @@ body, html {
     margin: var(--space-small-xs) 0;
 }
 
+.footer__links li:last-child{
+    text-align: center;
+}
+
 .footer__cta-link {
     display: inline-block;
     padding: 10px var(--space-large);

@@ -23,7 +23,7 @@
             </div>
 
             <div class="navbar__menu">
-                <img src="./assets/menu.svg" class="navbar__menu-icon">
+                <img src="./assets/menu.svg" class="navbar__menu-icon" alt="Menu">
             </div>
 
             <div class="navbar__links">
@@ -162,18 +162,17 @@
                 <p class="form__copy">Si necesitas ayuda escribenos y te responderemos lo antes posible.</p>
                 <div class="form__inputs">
                     <div class="form__input-container">
-                        <label for="name" id="name">Nombre *</label>
-                        <input type="text" name="name" id="name" class="form__input form__input--name" required
+                        <label for="name">Nombre *</label>
+                        <input type="text" name="firstName" id="name" class="form__input form__input--name" required
                             placeholder="Nombre">
                     </div>
                     <div class="form__input-container">
-                        <label for="phone" id="phone">Teléfono *</label>
+                        <label for="phone">Teléfono *</label>
                         <input type="tel" name="phone" id="phone" required class="form__input form__input--phone"
                             placeholder="Teléfono">
                     </div>
                 </div>
-                <textarea name="message" id="" class="form__message" placeholder="Escribe tú consulta"
-                    required></textarea>
+                <textarea name="message" class="form__message" placeholder="Escribe tú consulta" required></textarea>
                 <button type="submit" class="form__cta-link header__cta-link">Enviar consulta</button>
             </form>
         </div>
@@ -191,28 +190,38 @@
                     <div class="footer__social-media-icon">
                         <a href="https://es-es.facebook.com/people/R%C3%B3tulos-Arnao/100069254559997/"
                             class="footer__social-media-link" target="_blank">
-                            <img src="./assets/facebook.png" class="footer__icon">
+                            <img src="./assets/facebook.png" class="footer__icon" alt="Facebook">
                         </a>
                     </div>
                     <div class="footer__social-media-icon">
                         <a href="https://www.linkedin.com/company/rotulos-arnao-s-l/" class="footer__social-media-link"
                             target="_blank">
-                            <img src="./assets/linkedin.png" class="footer__icon">
+                            <img src="./assets/linkedin.png" class="footer__icon" alt="Linkedin">
                         </a>
                     </div>
                 </div>
             </div>
 
             <ul class="footer__links">
-                <a href="#home" class="footer__link">Home</a>
-                <a href="#services" class="footer__link">Servicios</a>
-                <a href="#jobs" class="footer__link">Nuestros trabajos</a>
-                <a href="#contact" class="footer__link">Contacto</a>
-                <a href="#contact" class="footer__cta-link header__cta-link">Contactanos</a>
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li>
+                    <a href="#services" class="footer__link">Servicios</a>
+                </li>
+                <li>
+                    <a href="#jobs" class="footer__link">Nuestros trabajos</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link">Contacto</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__cta-link header__cta-link">Contactanos</a>
+                </li>
             </ul>
         </div>
 
-        <p class="footer__copy">&#169 Rotulos Arnao S.L. Todos los derechos reservados</p>
+        <p class="footer__copy">&#169; Rotulos Arnao S.L. Todos los derechos reservados</p>
 
 
 
