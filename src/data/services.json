@@ -25,37 +25,37 @@
         {
             "image": "rotulacion.png",
             "title": "Rotulación de vehículos",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+            "description": "Servicio integral de rotulación en vinilo en impresión digial y vinilo de corte para coches, camiones, furgonetas, maquinaria industrial etc."
         },
         {
             "image": "vallas-publicitarias.jpg",
             "title": "Vallas publicitarias",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+            "description": "Realizamos montajes de vallas publicitarias y colocamos la publiciadad tanto en formato papel, vinilo impreso y colocación de lonas."
         },
         {
             "image": "senales-trafico.jpg",
             "title": "Señales de tráfico",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+            "description": "Ofrecemos todo tipo de señales de tráficos con su homologación oficial para su colocación en carreteras nacionales y autovias."
         },
         {
             "image": "señalizacion.jpg",
             "title": "Señalización",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+            "description": "En nuestra tienda puedes encontrar cualquier tipo de señalización que necesites para locales, obras, almacenes o lo que sea que necesites."
         },
         {
             "image": "placas.jpg",
-            "title": "Placas personalizadas",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+            "title": "Placas",
+            "description": "Fabricamos placas a medida en diferentes formatos, como placas grabadas, placas de metracilato, aluminio, dibond y las rotulamos con vinilo personalizado."
         },
         {
             "image": "sellos.jpg",
-            "title": "Sellos personalizados",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+            "title": "Sellos",
+            "description": "Si necesitas sellos para tu negocio tenemos un amplio catalogo en formato automáticos, manual y accesorios."
         },
         {
             "image": "camisetas.jpg",
-            "title": "Ropa personalizada",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo earum ducimus exercitationem ipsa obcaecati beatae sed dolorum, fugit perspiciatis."
+            "title": "Estampación de ropa",
+            "description": "Personalización de todo tipo de ropa, tanto para el ambito laboral como para eventos, promociones o cualquier cosa que se te ocurra."
         }
     ]
 }
