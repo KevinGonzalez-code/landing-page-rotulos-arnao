@@ -41,6 +41,8 @@
     /* BOX SHADOW */
     --box-shadow: 0px 1px 10px 2px rgba(51, 50, 50, 0.237);
 
+    /* MAX WIDTH */
+    --max-width: 1240px;
 }
 
 /**************************/
@@ -99,7 +101,7 @@ body, html {
     transition: all ease;
 }
 
-.navbar__links a{    
+.navbar__links a {
     color: var(--color-primary);
 }
 
@@ -129,7 +131,7 @@ body, html {
     cursor: pointer;
 }
 
-.navbar__container-links{
+.navbar__container-links {
     display: none;
 }
 
@@ -145,7 +147,7 @@ body, html {
     text-decoration: underline;
 }
 
-.navbar__dropdown-links{
+.navbar__dropdown-links {
     position: absolute;
     top: var(--height-nav);
     right: px;
@@ -157,11 +159,11 @@ body, html {
     padding: var(--space-small-xs);
 }
 
-.navbar__dropdown-link{
+.navbar__dropdown-link {
     padding: 5px;
 }
 
-.navbar__links li:last-child:hover > ul{
+.navbar__links li:last-child:hover>ul {
     display: block;
 }
 
@@ -225,7 +227,11 @@ body, html {
     width: 100%;
     background: var(--color-ligth-gray);
     padding: var(--space-more-large) 0 0;
+}
 
+.about__container {
+    max-width: var(--max-width);
+    margin: 0 auto;
 }
 
 .about__title {
@@ -307,7 +313,12 @@ body, html {
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-medium);
-    margin: 0;
+    margin: 0 auto;
+}
+
+.services__container {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .service__card {
@@ -356,6 +367,11 @@ body, html {
     padding-top: var(--space-large);
 }
 
+.jobs__container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 .job {
     width: 100%;
     min-height: 250px;
@@ -383,6 +399,8 @@ body, html {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .contact__container-information {
