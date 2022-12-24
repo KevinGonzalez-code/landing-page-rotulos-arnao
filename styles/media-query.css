@@ -23,10 +23,6 @@
         font-size: var(--font-size-small-xs);
     }
 
-    /* .services{
-        width: 90%;
-    } */
-
     .service__container{
         justify-content: center;
     }
@@ -106,7 +102,7 @@
         display: block;
     }
 
-    .navbar__links {
+    .navbar__container-links {
         display: block;
     }
 
