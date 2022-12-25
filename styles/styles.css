@@ -96,29 +96,6 @@ body, html {
     height: 45px;
 }
 
-.navbar__links {
-    position: relative;
-    transition: all ease;
-}
-
-.navbar__links a {
-    color: var(--color-primary);
-}
-
-.navbar__links-open {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding-top: var(--space-large);
-    width: 170px;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: var(--color-neutral-white);
-    box-shadow: var(--box-shadow);
-}
-
 .navbar__menu {
     cursor: pointer;
 }
@@ -135,6 +112,29 @@ body, html {
     display: none;
 }
 
+.navbar__links {
+    position: relative;
+    transition: all 0.3s;
+}
+
+.navbar__links-open {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--space-large);
+    width: 170px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--color-neutral-white);
+    box-shadow: var(--box-shadow);
+}
+
+.navbar__links a {
+    color: var(--color-primary);
+}
+
 .navbar__link {
     display: inline-block;
     transition: all 300ms;
@@ -149,8 +149,8 @@ body, html {
 
 .navbar__dropdown-links {
     position: absolute;
-    top: var(--height-nav);
-    right: px;
+    top: 50px;
+    right: auto;
     display: none;
     background-color: var(--color-neutral-white);
     border-radius: 5px;
@@ -160,8 +160,13 @@ body, html {
 }
 
 .navbar__dropdown-link {
-    padding: 5px;
+    padding: 10px 5px;
 }
+
+.navbar__links li:last-child {
+    height: 100%;
+}
+
 
 .navbar__links li:last-child:hover>ul {
     display: block;
@@ -367,7 +372,7 @@ body, html {
     padding-top: var(--space-large);
 }
 
-.jobs__container{
+.jobs__container {
     max-width: 1600px;
     margin: 0 auto;
 }

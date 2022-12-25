@@ -101,12 +101,8 @@
     .header__wave {
         display: block;
     }
-
-    .navbar__container-links {
-        display: block;
-    }
-
-    .navbar__menu {
+    
+   .navbar__container-links {
         display: block;
     }
 
@@ -116,6 +112,10 @@
 
     .navbar__menu{
         display: none;
+    }
+
+    .navbar__dropdown-links{
+        right: 5px;
     }
 
     .job{
