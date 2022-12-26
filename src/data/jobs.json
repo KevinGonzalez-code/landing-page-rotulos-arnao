@@ -5,36 +5,68 @@
     },
     "data": [
         {
-            "image": "vinilos.png",
-            "alt": "Vinilos personalizados"
+            "image": "image-1.jpeg",
+            "alt": "Rotulo luminoso con caja de luz"
         },
         {
-            "image": "neon.png",
-            "alt": "Rótulos de Neón"
+            "image": "image-3.jpg",
+            "alt": "Vinilo Santana"
         },
         {
-            "image": "placas.jpg",
-            "alt": "Placas personalizadas"
+            "image": "image-19.jpg",
+            "alt": "Mercanza letras corporeas"
         },
         {
-            "image": "rotulacion.png",
-            "alt": "Rotulación de vehículos"
+            "image": "image-25.png",
+            "alt": "Rotulación de coche"
         },
         {
-            "image": "sellos.jpg",
-            "alt": "Sellos personalizados"
+            "image": "image-7.jpg",
+            "alt": "Transverdú letras corporeas totem"
         },
         {
-            "image": "vallas-publicitarias.jpg",
+            "image": "image-9.jpg",
+            "alt": "Rotulación estación de gasoleo"
+        },
+        {
+            "image": "image-13.jpg",
+            "alt": "Directorio"
+        },
+        {
+            "image": "image-16.jpg",
+            "alt": "Mapcop cartel"
+        },
+        {
+            "image": "image-17.jpg",
             "alt": "Vallas publicitarias"
         },
         {
-            "image": "senales-trafico.jpg",
-            "alt": "Vallas publicitarias"
+            "image": "image-20.jpg",
+            "alt": "Rótulo con letras corporeas"
         },
         {
-            "image": "señalizacion.jpg",
-            "alt": "Vallas publicitarias"
+            "image": "image-21.jpg",
+            "alt": "Carteles de aluminio vinilados"
+        },
+        {
+            "image": "image-22.jpg",
+            "alt": "Vinilo con efecto ácido"
+        },
+        {
+            "image": "image-11.jpg",
+            "alt": "Rotulación tanque de gas"
+        },
+        {
+            "image": "image-23.jpg",
+            "alt": "Sermarco rotulacición fachada"
+        },
+        {
+            "image": "image-24.jpg",
+            "alt": "Concesionario coches"
+        },
+        {
+            "image": "image-26.jpg",
+            "alt": "Panel de aluminio vinilado"
         }
     ]
 }
