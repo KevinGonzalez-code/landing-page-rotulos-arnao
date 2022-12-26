@@ -369,11 +369,12 @@ body, html {
     display: flex;
     justify-content: center;
     background-color: var(--color-ligth-gray);
-    padding-top: var(--space-large);
+    padding: var(--space-large) 0 var(--space-more-large-xl) 0;
 }
 
 .jobs__container {
-    max-width: 1600px;
+    width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
