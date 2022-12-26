@@ -61,8 +61,18 @@ body, html {
     font-weight: 300;
     color: var(--color-primary);
     scroll-behavior: smooth;
+    
 }
 
+html::-webkit-scrollbar{
+      width: 15px;
+      
+}
+
+html::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%); 
+    border-radius: 5px;
+}
 
 
 /**************************/
@@ -521,6 +531,20 @@ body, html {
 .form__input::placeholder {
     font-family: Overpass;
     font-size: var(--font-size-small-xs);
+}
+
+/**************************/
+/* SECTION CATALOGS */
+/**************************/
+
+.catalogs{
+    max-width: 1500px;
+    width: 100%;
+    margin-top: var(--space-more-large);
+}
+
+.catalog__title{
+    text-align: center;
 }
 
 /**************************/

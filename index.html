@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <script src="./src/index.js" async type="module"></script>
-    <link rel="icon" type="image/jpg" href="./assets/logo.png" >
+    <link rel="icon" type="image/jpg" href="./assets/logo.png">
 
     <style>
         @import url(./styles/styles.css);
@@ -148,7 +148,11 @@
                         <img src="./assets/phone.svg" alt="Phone" class="contact__information-icon">
                         Teléfono
                     </h3>
-                    <p class="contact__information-copy">969 240 686</p>
+                    <p class="contact__information-copy">
+                        <a href="tel:+34969240686" class="contact__information-link">
+                            969 240 686
+                        </a>
+                    </p>
                 </div>
 
                 <div class="contact__information">
@@ -166,8 +170,12 @@
                         <img src="./assets/mail.svg" alt="Phone" class="contact__information-icon">
                         Emails
                     </h3>
-                    <p class="contact__information-copy">info@rotulosarnao.es</p>
-                    <p class="contact__information-copy">pedidos@rotulosarnao.es</p>
+                    <p class="contact__information-copy">
+                        <a href="mailto:info@rotulosarnao.es?Subject=Información" class="contact__information-link">
+
+                            info@rotulosarnao.es
+                        </a>
+                    </p>
                 </div>
 
                 <div class="contact__information">
@@ -175,7 +183,12 @@
                         <img src="./assets/map-pin.svg" alt="Phone" class="contact__information-icon">
                         Dirección
                     </h3>
-                    <p class="contact__information-copy">Puerta Valencia, 5 - 16001 (Cuenca) </p>
+                    <p class="contact__information-copy">
+                        <a href="https://www.google.com/maps/dir//rotulos+arnao+cuenca/@40.0752569,-2.1326377,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd5d676e3c0884ff:0xb67d2a5f553ed54e!2m2!1d-2.1318014!2d40.0735841"
+                            class="contact__information-link" target="_blank">
+                            Puerta Valencia, 5
+                        </a>
+                    </p>
 
                 </div>
             </div>
@@ -203,6 +216,12 @@
                 <button type="submit" class="form__cta-link header__cta-link">Enviar consulta</button>
             </form>
         </div>
+    </section>
+
+    <section class="catalogs">
+        <h1 class="catalog__title">Descarga nuestros catálogos</h1>
+
+
     </section>
 
     <footer class="footer">
