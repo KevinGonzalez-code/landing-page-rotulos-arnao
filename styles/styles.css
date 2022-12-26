@@ -373,7 +373,8 @@ body, html {
 }
 
 .jobs__container {
-    max-width: 1600px;
+    width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
