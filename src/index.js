@@ -5,6 +5,7 @@ import {
 } from "./constants.js"
 
 import {
+    printCardCatalogs,
     printCardServices,
     printJobsGallery
 } from "./helpers/helpers.js"
@@ -53,3 +54,4 @@ resizeObserver.observe(document.body)
 
 printCardServices()
 printJobsGallery()
+printCardCatalogs()
