@@ -75,10 +75,10 @@ export const printJobsGallery = () => {
 export const printCardCatalogs = () => {
 
     const catalogsContainer = document.querySelector('.catalog_container')
-    const { atribute, data, label } = catalogs
+    const { data, label } = catalogs
 
 
-    data.forEach(({copy, file, title}) => {
+    data.forEach(({ copy, file, title }) => {
 
         const { classContainer, classCopy, classLink, classTitle } = catalogs.class
 
@@ -93,7 +93,7 @@ export const printCardCatalogs = () => {
         catalogLink.setAttribute('class', classLink)
 
         catalogLink.setAttribute('href', `${BASE_URL_CATALOGS.concat(file)}`)
-        catalogLink.setAttribute(atribute, '')
+        catalogLink.setAttribute('target', '_blank')
         catalogLink.setAttribute('alt', file)
 
         catalogCopy.textContent = copy

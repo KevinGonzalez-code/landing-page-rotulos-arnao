@@ -1,6 +1,5 @@
 {
     "label": "Descargar",
-    "atribute": "download",
     "class": {
         "classContainer": "catalog",
         "classLink": "catalog__link",
@@ -21,7 +20,7 @@
         {
             "title": "Sellos de caucho",
             "copy": "Variedad de sellos tanto en formato automático como manual y recambios",
-            "file": "sellos-caucho.zip"
+            "file": "sellos.pdf"
         },
         {
             "title": "Señales de tráfico",

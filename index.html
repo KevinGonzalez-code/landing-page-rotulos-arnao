@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,16 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <script src="./src/index.js" async type="module"></script>
-    <link rel="icon" type="image/jpg" href="./assets/logo.png">
+    <script src="./src/bootstrap.bundle.min.js" async></script>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
 
     <style>
+        @import url(./styles/bootstrap.min.css);
         @import url(./styles/styles.css);
         @import url(./styles/media-query.css);
     </style>
-    <title>Empresa de rótulos</title>
+    <title>Rótulos Arnao | Empresa de publicidad en Cuenca</title>
 </head>
 
 <body lang="es">
+
+    <!-- HEADER -->
     <header class="header" id="home">
         <nav class="navbar">
             <div class="navbar__logo">
@@ -69,6 +73,8 @@
         </div>
     </header>
 
+    <!-- SECTION ABOUT -->
+
     <section class="about">
         <div class="about__container">
 
@@ -112,6 +118,8 @@
         </div>
     </section>
 
+    <!-- SECTION SERVICES -->
+
     <section class="services" id="services">
         <div class="services__container">
             <h1 class="services__title">Nuestros servicios</h1>
@@ -124,7 +132,23 @@
             <h1 class="job__title">Últimos trabajos</h1>
             <div class="job__container"></div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="gallery-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/images/image-1.jpeg" alt="Job" class="modal-img">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- SECTION CONTACT -->
 
     <section class="contact" id="contact">
         <h1 class="contact__title">Contacta con nosotros</h1>
@@ -174,13 +198,14 @@
                     <p class="contact__information-copy">
                         <a href="https://www.google.com/maps/dir//rotulos+arnao+cuenca/@40.0752569,-2.1326377,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd5d676e3c0884ff:0xb67d2a5f553ed54e!2m2!1d-2.1318014!2d40.0735841"
                             class="contact__information-link" target="_blank">
-                            Puerta Valencia, 5
+                            Puerta Valencia, 15
                         </a>
                     </p>
 
                 </div>
             </div>
 
+            <!-- FORM CONTACT -->
 
             <form action="#" class="form" method="get">
                 <h3 class="contact__information-title">
@@ -206,13 +231,18 @@
         </div>
     </section>
 
+    <!-- SECTION CATALOGS -->
+
     <section class="catalogs" id="catalogs">
         <div class="catalogs__container">
             <h1 class="about__title catalog__title">Descarga nuestros catálogos</h1>
-            <p class=" about__copy catalog__copy">Aqui podrás encontrar una variedad de catalogos con nuestros productos.</p>
+            <p class=" about__copy catalog__copy">Aqui podrás encontrar una variedad de catalogos con nuestros
+                productos.</p>
             <div class="catalog_container"></div>
         </div>
     </section>
+
+    <!-- FOOTER -->
 
     <footer class="footer">
         <div class="footer__container">
