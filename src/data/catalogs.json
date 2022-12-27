@@ -1,0 +1,37 @@
+{
+    "label": "Descargar",
+    "atribute": "download",
+    "class": {
+        "classContainer": "catalog",
+        "classLink": "catalog__link",
+        "classCopy": "catalog__copy",
+        "classTitle": "catalog__subtitle"
+    },
+    "data": [
+        {
+            "title": "Placas de coto",
+            "copy": "Encontraras todo tipo de placas de coto adaptadas a la normativa de Castilla la Mancha.",
+            "file": "cotos.zip"
+        },
+        {
+            "title": "Placas grabadas",
+            "copy": "Placas grabadas con diferentes formas y materiales personalizable",
+            "file": "placas-grabadas.zip"
+        },
+        {
+            "title": "Sellos de caucho",
+            "copy": "Variedad de sellos tanto en formato automático como manual y recambios",
+            "file": "sellos-caucho.zip"
+        },
+        {
+            "title": "Señales de tráfico",
+            "copy": "Adaptadas a la normativa del gobierno y con las homologaciones pertinentes",
+            "file": "señales-trafico.zip"
+        },
+        {
+            "title": "Señalización",
+            "copy": "Señalizaciones de emergencia, salvamento, precaución, prohibición y oblicación",
+            "file": "señalizacion.zip"
+        }
+    ]
+}

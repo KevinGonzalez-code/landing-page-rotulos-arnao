@@ -1,6 +1,7 @@
-import { BASE_URL } from '../constants.js'
+import { BASE_URL_CATALOGS, BASE_URL_IMAGES } from '../constants.js'
 import services from '../data/services.json' assert {type: "json"};
 import jobs from '../data/jobs.json' assert {type: "json"};
+import catalogs from '../data/catalogs.json' assert {type: "json"};
 
 export const printCardServices = () => {
 
@@ -30,7 +31,7 @@ export const printCardServices = () => {
         cardTextContainer.setAttribute('class', containerText)
         cardDescription.setAttribute('class', descriptionClass)
 
-        imgCard.setAttribute('src', `${BASE_URL.concat(image)}`)
+        imgCard.setAttribute('src', `${BASE_URL_IMAGES.concat(image)}`)
         imgCard.setAttribute('alt', title)
 
         cardTitle.textContent = title
@@ -63,11 +64,47 @@ export const printJobsGallery = () => {
         image.setAttribute('class', img)
         jobContainer.setAttribute('class', div)
 
-        image.setAttribute('src', `${BASE_URL.concat(job.image)}`)
-        image.setAttribute('alt', `${BASE_URL.concat(job.alt)}`)
+        image.setAttribute('src', `${BASE_URL_IMAGES.concat(job.image)}`)
+        image.setAttribute('alt', `${BASE_URL_IMAGES.concat(job.alt)}`)
 
         jobContainer.appendChild(image)
         jobsContainer.appendChild(jobContainer)
+    })
+}
+
+export const printCardCatalogs = () => {
+
+    const catalogsContainer = document.querySelector('.catalog_container')
+    const { atribute, data, label } = catalogs
+
+
+    data.forEach(({copy, file, title}) => {
+
+        const { classContainer, classCopy, classLink, classTitle } = catalogs.class
+
+        const catalogContainer = document.createElement('div')
+        const catalogTitle = document.createElement('h3')
+        const catalogCopy = document.createElement('p')
+        const catalogLink = document.createElement('a')
+
+        catalogContainer.setAttribute('class', classContainer)
+        catalogTitle.setAttribute('class', classTitle)
+        catalogCopy.setAttribute('class', classCopy)
+        catalogLink.setAttribute('class', classLink)
+
+        catalogLink.setAttribute('href', `${BASE_URL_CATALOGS.concat(file)}`)
+        catalogLink.setAttribute(atribute, '')
+        catalogLink.setAttribute('alt', file)
+
+        catalogCopy.textContent = copy
+        catalogLink.textContent = label
+        catalogTitle.textContent = title
+
+        catalogContainer.appendChild(catalogTitle)
+        catalogContainer.appendChild(catalogCopy)
+        catalogContainer.appendChild(catalogLink)
+
+        catalogsContainer.appendChild(catalogContainer)
     })
 }
 

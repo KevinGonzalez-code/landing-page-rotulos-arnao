@@ -61,16 +61,15 @@ body, html {
     font-weight: 300;
     color: var(--color-primary);
     scroll-behavior: smooth;
-    
+
 }
 
-html::-webkit-scrollbar{
-      width: 15px;
-      
+html::-webkit-scrollbar {
+    width: 15px;
 }
 
-html::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%); 
+html::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
     border-radius: 5px;
 }
 
@@ -150,36 +149,10 @@ html::-webkit-scrollbar-thumb{
     transition: all 300ms;
     font-weight: 600;
     padding: var(--space-small);
-    position: relative;
 }
 
 .navbar__link:hover {
     text-decoration: underline;
-}
-
-.navbar__dropdown-links {
-    position: absolute;
-    top: 50px;
-    right: auto;
-    display: none;
-    background-color: var(--color-neutral-white);
-    border-radius: 5px;
-    box-shadow: var(--box-shadow);
-    list-style: none;
-    padding: var(--space-small-xs);
-}
-
-.navbar__dropdown-link {
-    padding: 10px 5px;
-}
-
-.navbar__links li:last-child {
-    height: 100%;
-}
-
-
-.navbar__links li:last-child:hover>ul {
-    display: block;
 }
 
 .header__wave {
@@ -390,13 +363,13 @@ html::-webkit-scrollbar-thumb{
 
 .job {
     width: 100%;
-    min-height: 250px;
-
+    max-height: 400px;
+    margin-bottom: var(--space-small-xs);
 }
 
 .job__img {
     width: 100%;
-    height: 250px;
+    max-height: 400px;
     object-fit: cover;
 
 }
@@ -537,14 +510,53 @@ html::-webkit-scrollbar-thumb{
 /* SECTION CATALOGS */
 /**************************/
 
-.catalogs{
-    max-width: 1500px;
+.catalogs {
     width: 100%;
     margin-top: var(--space-more-large);
 }
 
-.catalog__title{
+.catalogs__container {
+    max-width: 1240px;
+    margin: 0 auto;
     text-align: center;
+}
+
+.catalog__title {
+    margin: var(--space-medium) 0;
+}
+
+.catalog__copy {
+    margin-bottom: var(--space-medium);
+}
+
+.catalog {
+    width: 100%;
+    max-width: 400px;
+    padding: var(--space-medium);
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 var(--space-small-xs);
+    margin-bottom: var(--space-small-xs);
+}
+
+.catalog_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: var(--space-small);
+}
+
+.catalog__subtitle {
+    margin-bottom: var(--space-small-xs);
+}
+
+.catalog__link {
+    padding: 5px var(--space-medium);
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    color: var(--color-neutral-white);
+    border-radius: 5px;
+
 }
 
 /**************************/

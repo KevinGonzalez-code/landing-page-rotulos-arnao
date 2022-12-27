@@ -1,16 +1,13 @@
-
-
 /**************************/
 /* MOBILE */
 /**************************/
 
 
-@media screen and (max-width:600px){
-    .job__container{
+@media screen and (max-width:600px) {
+    .job__container {
         width: 100%;
     }
 }
-
 
 @media screen and (max-width:425px) {
 
@@ -23,15 +20,15 @@
         font-size: var(--font-size-small-xs);
     }
 
-    .service__container{
+    .service__container {
         justify-content: center;
     }
 
-    .service__card{
+    .service__card {
         width: 20rem;
     }
 
-    .service__card-img{
+    .service__card-img {
         height: 220px;
     }
 
@@ -54,14 +51,14 @@
         width: 100%;
     }
 
- 
+
 }
 
 @media screen and (max-width:380px) {
-    .service__card{
+    .service__card {
         width: 17rem;
     }
-   
+
 }
 
 
@@ -87,9 +84,9 @@
         gap: var(--space-small-xs);
     }
 
-    .job{
-        width: 280px;
-        height: 280px;
+    .job {
+        width: 400px;
+        height: 400px;
     }
 }
 
@@ -101,8 +98,8 @@
     .header__wave {
         display: block;
     }
-    
-   .navbar__container-links {
+
+    .navbar__container-links {
         display: block;
     }
 
@@ -110,52 +107,52 @@
         display: none;
     }
 
-    .navbar__menu{
+    .navbar__menu {
         display: none;
     }
 
-    .navbar__dropdown-links{
-        right: 5px;
-    }
-
-    .job{
+    .job {
         width: 350px;
         height: 350px;
     }
 
-    .job__img{
+    .job__img {
         height: 350px;
     }
 
-    .contact__container{
+    .contact__container {
         justify-content: space-evenly;
     }
 
-    .contact__container-information{
+    .contact__container-information {
         width: 40%;
     }
 
-    .contact__information{
+    .contact__information {
         width: 15rem;
     }
 
-    .form{
+    .form {
         width: 40%;
     }
 
-    .footer{
+    div.catalog{
+        max-width: 400px;
+    }
+
+    .footer {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .footer__container{
+    .footer__container {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
 
-    .footer__links{
+    .footer__links {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -163,12 +160,18 @@
         height: 25px;
     }
 
-    .footer__link{
+    .footer__link {
         margin: 0 var(--space-medium);
     }
 
-    .footer__cta-link{
+    .footer__cta-link {
         margin: 0;
-        margin-left: var( --space-more-large-xl);
+        margin-left: var(--space-more-large-xl);
+    }
+}
+
+@media screen and (min-width: 700px){
+    .catalog{
+        max-width: 300px;
     }
 }
