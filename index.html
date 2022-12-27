@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <script src="./src/index.js" async type="module"></script>
+    <script src="./src/bootstrap.bundle.min.js" async></script>
     <link rel="icon" type="image/jpg" href="./assets/logo.png">
 
     <style>
+        @import url(./styles/bootstrap.min.css);
         @import url(./styles/styles.css);
         @import url(./styles/media-query.css);
     </style>
@@ -124,6 +126,20 @@
             <h1 class="job__title">Últimos trabajos</h1>
             <div class="job__container"></div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="gallery-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/images/image-1.jpeg" alt="Job" class="modal-img">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="contact" id="contact">
@@ -174,7 +190,7 @@
                     <p class="contact__information-copy">
                         <a href="https://www.google.com/maps/dir//rotulos+arnao+cuenca/@40.0752569,-2.1326377,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd5d676e3c0884ff:0xb67d2a5f553ed54e!2m2!1d-2.1318014!2d40.0735841"
                             class="contact__information-link" target="_blank">
-                            Puerta Valencia, 5
+                            Puerta Valencia, 15
                         </a>
                     </p>
 
@@ -209,7 +225,8 @@
     <section class="catalogs" id="catalogs">
         <div class="catalogs__container">
             <h1 class="about__title catalog__title">Descarga nuestros catálogos</h1>
-            <p class=" about__copy catalog__copy">Aqui podrás encontrar una variedad de catalogos con nuestros productos.</p>
+            <p class=" about__copy catalog__copy">Aqui podrás encontrar una variedad de catalogos con nuestros
+                productos.</p>
             <div class="catalog_container"></div>
         </div>
     </section>
