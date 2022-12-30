@@ -38,7 +38,7 @@
 
     .contact__information {
         width: 100%;
-        margin: 0;
+        margin: 0 var(--space-small-xs);
         padding: 0;
         height: 130px;
     }
@@ -125,11 +125,11 @@
     }
 
     .contact__container-information {
-        width: 40%;
+        width: 50%;
     }
 
     .contact__information {
-        width: 15rem;
+        width: 14rem;
     }
 
     .form {
