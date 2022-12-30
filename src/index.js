@@ -1,6 +1,5 @@
 import {
-    REGEX_NAME,
-    REGEX_PHONE,
+    TypeValidation,
     WIDTH_DESKTOP
 } from "./constants.js"
 
@@ -8,7 +7,7 @@ import {
     printCardCatalogs,
     printCardServices,
     printJobsGallery
-} from "./helpers/helpers.js"
+} from "./helpers/cards.js"
 
 //Navbar
 const navbarMenu = document.querySelector('.navbar__menu')
@@ -17,8 +16,9 @@ const navbarClose = document.querySelector('.navbar__close-icon')
 
 //Form
 const form = document.querySelector('.form')
-const inputName = document.querySelector('form__input--name')
-const inputPhone = document.querySelector('form__input--phone')
+const inputName = document.querySelector('.form__input--name')
+const inputPhone = document.querySelector('.form__input--phone')
+const textareaMessage = document.querySelector('.form__message')
 
 //Gallery
 const galleryImage = document.querySelector('.jobs__container')
@@ -38,7 +38,7 @@ const closeMenuMobile = () => {
 }
 
 const openModalGallery = (event) => {
-    if(event.target.classList.contains("job__img")){
+    if (event.target.classList.contains("job__img")) {
         const src = event.target.getAttribute('src')
         document.querySelector('.modal-img').src = src
         const modal = new bootstrap.Modal(document.getElementById('gallery-modal'))
@@ -46,14 +46,27 @@ const openModalGallery = (event) => {
     }
 }
 
-const checkInputValid = (text, regex) => regex.test(text)
+const checkInputValid = (text, type) => {
+    switch (type) {
+        case TypeValidation.NAME:
+            return /[A-Za-z]/.test(text);
+        case TypeValidation.PHONE:
+            return /[0-9]{9}/.test(text);
+        case TypeValidation.MESSAGE:
 
+            if (textareaMessage.value.length <= 20) {
+                return false
+            }
+            return true;
+    }
+}
 
 const submitForm = (event) => {
     event.preventDefault()
 
-    const isValidName = checkInputValid(inputName.value, REGEX_NAME)
-    const isValidPhone = checkInputValid(inputPhone.value, REGEX_PHONE)
+
+    const isValidName = checkInputValid(inputName.value, TypeValidation.NAME)
+    const isValidPhone = checkInputValid(inputPhone.value, TypeValidation.PHONE)
 
     if (isValidName && isValidPhone) {
         form.submit()
@@ -71,4 +84,4 @@ printCardServices()
 printJobsGallery()
 printCardCatalogs()
 
-galleryImage.addEventListener('click',openModalGallery)
+galleryImage.addEventListener('click', openModalGallery)
