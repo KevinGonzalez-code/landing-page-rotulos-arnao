@@ -561,6 +561,11 @@ ul {
     font-size: var(--font-size-small-xs);
 }
 
+.form__input--error{
+    font-size: 14px;
+    color: var(--color-secondary-red);
+}
+
 /**************************/
 /* SECTION CATALOGS */
 /**************************/
