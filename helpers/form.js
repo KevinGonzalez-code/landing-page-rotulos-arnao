@@ -5,20 +5,6 @@ const inputPhone = document.querySelector('.form__input--phone')
 const inputEmail = document.querySelector('.form__input--email')
 const textareaMessage = document.querySelector('.form__message')
 
-const requestOptions = {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-    },
-    body: JSON.stringify({
-        name: inputName.value,
-        phone: inputPhone.value,
-        message: textareaMessage.value,
-        email: inputEmail.value
-    })
-}
-
 const checkInputValid = (text, type) => {
     switch (type) {
         case TypeValidation.NAME:
@@ -40,7 +26,19 @@ const changeTextErrorModal = () => {
 const fetchSendEmail = () => {
     const modal = new bootstrap.Modal(document.getElementById('modalEmail'))
 
-    fetch("https://formsubmit.co/ajax/info@rotulosarnao.es", requestOptions)
+    fetch("https://formsubmit.co/ajax/info@rotulosarnao.es", {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    },
+    body: JSON.stringify({
+        name: inputName.value,
+        phone: inputPhone.value,
+        message: textareaMessage.value,
+        email: inputEmail.value
+    })
+})
         .then(({ status }) => {
             if (status === 200) {
                 modal.show()
